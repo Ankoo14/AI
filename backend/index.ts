@@ -16,4 +16,4 @@ app.post("/chat", (req, res) => {
     const { message } = data;
   
 });
-const port = 3000;
+app.listen(3000)
